@@ -1,0 +1,79 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  background-color:#fff;
+  margin: 0;
+}
+.main-container{
+ width: 100vw;
+ height: 100vh;
+ background-color: #fff;
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+}
+.main-container .cal-container{
+  width: 320px;
+  height: 520px;
+  background-color: #ffffff;
+  margin:  auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0,0.2);
+}
+.main-container .cal-container .result{
+  height: 120px;
+}
+.history{
+  text-align: right;
+  height: 20px;
+  margin: 0 20px;
+  padding-top: 20px;
+  font-size: 18px;
+  color: #919191;
+  
+}
+.output{
+  text-align: right;
+  height: 60px;
+  margin: 10px 20px;
+  font-size: 35px;
+  font-weight: 700;
+  
+}
+.keybord{
+  height: 400px;
+}
+.operator, .number, .empty{
+  width: 50px;
+  height: 50px;
+  margin: 15px;
+  float: left;
+  border-radius: 50px;
+  border-width: 0;
+  background-color: rgba(0, 0, 0,0.2);
+  font-size: 15px;
+  font-weight: bold
+}
+.number, .empty{
+  background-color: rgba(0, 0, 0,0.1);
+}
+
+button:nth-child(1){
+  font-size: 17px;
+  font-weight: 700;
+  color: red;
+}
+
+
+#multiply ,#divide, #menus, #sum, #percent, #parentes{
+  color: #2d7c9d;
+  font-weight: 700;
+  font-size: 17px;
+}
+
+#equal{
+  background-color: #2d7c9d;
+  color: #161d20;
+  font-weight: 700;
+  font-size: 17px;
+}
